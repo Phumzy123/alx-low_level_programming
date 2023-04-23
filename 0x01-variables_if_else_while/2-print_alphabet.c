@@ -8,9 +8,10 @@
  */
 
 int main(void)
+
 {
-	int lowercase = 'a';
-	while (lowercase <= 'z')
+	int lowercase = 'b';
+	while (lowercase <= 'y')
 	{
 	putchar(lowercase);
 	}
