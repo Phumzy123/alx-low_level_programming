@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 
 /**
@@ -9,18 +10,13 @@
 
 int main(void)
 {
-int lowercase = 'b';
-int uppercase = 'B';
-while (lowercase = 'b')
-{
-putchar(lowercase);
-(lowercase) = 'b';
-}
-while (uppercase = 'B')
-{
-putchar(uppercase);
-(uppercase) = 'B';
-}
-putchar["\n"]
-return (0);
+	char low;
+
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
+	putchar('\n');
+
+	return (0);
 }
