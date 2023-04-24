@@ -11,6 +11,7 @@ int main(void)
 
 {
 	int lowercase = 'b';
+
 	while (lowercase <= 'y')
 	{
 	putchar(lowercase);
